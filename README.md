@@ -8,7 +8,7 @@
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/🌐%20portfolio-albertobruscolini.github.io-7B61FF?style=for-the-badge)](https://albertobruscolini.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-AlbertoBruscolini-181717?style=for-the-badge&logo=github)](https://github.com/AlbertoBruscolini)
+[![GitHub](https://img.shields.io/badge/GitHub-AlbertoBruscoliniMain-181717?style=for-the-badge&logo=github)](https://github.com/AlbertoBruscoliniMain)
 [![Instagram](https://img.shields.io/badge/Instagram-albii0__-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/albii0__)
 [![Discord](https://img.shields.io/badge/Discord-albiss-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
 
@@ -24,7 +24,7 @@
 
 I'm a **19-year-old** developer from **Rimini, Italy** 🇮🇹 in my final year of a Computer Science high school.
 
-I like coding with Python, breaking things, and figuring out how to fix them. I'm currently diving into **AI and machine learning** — slowly building my first model from scratch.
+I spend most of my time writing Python, breaking things, and figuring out how to fix them. I'm currently diving into **AI and machine learning** — slowly building my first model from scratch.
 
 Outside of coding I'm into **sports and the gym** 🏋️ — same mindset: show up, put in the work, get better.
 
@@ -90,7 +90,7 @@ Outside of coding I'm into **sports and the gym** 🏋️ — same mindset: show
 <div align="center">
 
 <!-- PINNED_REPOS_START -->
-[![](https://img.shields.io/badge/Progetto-Fine-Anno-%E2%86%97_open-7B61FF?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e)](https://github.com/AlbertoBruscolini/Progetto-Fine-Anno)
+_pinned repos will appear here automatically after the first Action run_
 <!-- PINNED_REPOS_END -->
 
 </div>
