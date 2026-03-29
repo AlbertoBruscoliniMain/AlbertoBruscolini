@@ -19,7 +19,7 @@ jobs:
 
       - name: Fetch pinned repos and update README
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.USER_TOKEN }}
         run: |
           python3 << 'EOF'
           import urllib.request, urllib.parse, json, re, os
