@@ -22,31 +22,34 @@
 
 ### 👤 about me
 
-I'm a 17-year-old developer from **Rimini, Italy** 🇮🇹 in my final year of a Computer Science high school.
+I'm a **19-year-old** developer from **Rimini, Italy** 🇮🇹 in my final year of a Computer Science high school.
 
 I spend most of my time writing Python, breaking things, and figuring out how to fix them. I'm currently diving into **AI and machine learning** — slowly building my first model from scratch.
 
-When I'm not coding, you'll probably find me on Instagram or Discord.
+Outside of coding I'm into **sports and the gym** 🏋️ — same mindset: show up, put in the work, get better.
 
 ```
 📍  Rimini, Italy
 🎓  5th year · Computer Science
 🐍  Python main · web dev on the side
+🏋️  sports & gym
 🤖  Building my first AI
 ```
 
 </td>
 <td width="45%" align="center" valign="top">
 
-<br/><br/>
+<br/><br/><br/>
 
-[![Visit my portfolio](https://img.shields.io/badge/🌐_visit_my_portfolio-albertobruscolini.github.io-7B61FF?style=for-the-badge)](https://albertobruscolini.github.io)
+[![](https://img.shields.io/badge/-%F0%9F%8C%90%20visit%20my%20portfolio-7B61FF?style=for-the-badge&labelColor=0d0d0d&logoColor=white)](https://albertobruscolini.github.io)
+
+**[albertobruscolini.github.io](https://albertobruscolini.github.io)**
+
+<sub>projects · skills · contacts</sub>
 
 <br/>
 
-> Projects, skills and<br/>everything about me →
-
-<!-- OPTIONAL: add your photo here -->
+<!-- OPTIONAL: add your photo below -->
 <!-- <img src="YOUR_PHOTO.png" width="200" /> -->
 
 </td>
@@ -84,15 +87,15 @@ When I'm not coding, you'll probably find me on Instagram or Discord.
 <div align="center">
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  Replace REPO_NAME_1 and REPO_NAME_2 with your actual       ║ -->
-<!-- ║  repository names. You can add as many rows as you want.    ║ -->
+<!-- ║  Replace REPO_NAME with your actual repository names.       ║ -->
+<!-- ║  The badge text is what gets displayed — change it too!     ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-[![Repo 1](https://github-readme-stats.vercel.app/api/pin/?username=AlbertoBruscolini&repo=REPO_NAME_1&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B61FF&text_color=ECECEC&icon_color=7B61FF)](https://github.com/AlbertoBruscolini/REPO_NAME_1)
-[![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=AlbertoBruscolini&repo=REPO_NAME_2&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B61FF&text_color=ECECEC&icon_color=7B61FF)](https://github.com/AlbertoBruscolini/REPO_NAME_2)
+[![](https://img.shields.io/badge/📦_REPO__NAME__1-view%20on%20github-181717?style=for-the-badge&logo=github)](https://github.com/AlbertoBruscolini/REPO_NAME_1)
+[![](https://img.shields.io/badge/📦_REPO__NAME__2-view%20on%20github-181717?style=for-the-badge&logo=github)](https://github.com/AlbertoBruscolini/REPO_NAME_2)
 
-[![Repo 3](https://github-readme-stats.vercel.app/api/pin/?username=AlbertoBruscolini&repo=REPO_NAME_3&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B61FF&text_color=ECECEC&icon_color=7B61FF)](https://github.com/AlbertoBruscolini/REPO_NAME_3)
-[![Repo 4](https://github-readme-stats.vercel.app/api/pin/?username=AlbertoBruscolini&repo=REPO_NAME_4&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B61FF&text_color=ECECEC&icon_color=7B61FF)](https://github.com/AlbertoBruscolini/REPO_NAME_4)
+[![](https://img.shields.io/badge/📦_REPO__NAME__3-view%20on%20github-181717?style=for-the-badge&logo=github)](https://github.com/AlbertoBruscolini/REPO_NAME_3)
+[![](https://img.shields.io/badge/📦_REPO__NAME__4-view%20on%20github-181717?style=for-the-badge&logo=github)](https://github.com/AlbertoBruscolini/REPO_NAME_4)
 
 </div>
 
