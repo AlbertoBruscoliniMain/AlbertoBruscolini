@@ -1,0 +1,107 @@
+name: Update Pinned Repos
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # ogni giorno alle 06:00 UTC
+  workflow_dispatch:       # puoi anche avviarlo a mano da GitHub
+  push:
+    branches: [main]       # si aggiorna anche ad ogni push
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # permesso per fare il commit sul README
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch pinned repos and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'EOF'
+          import urllib.request, urllib.parse, json, re, os
+
+          token = os.environ['GH_TOKEN']
+
+          # Query GraphQL per i repo pinnati
+          query = """
+          {
+            user(login: "AlbertoBruscolini") {
+              pinnedItems(first: 6, types: REPOSITORY) {
+                nodes {
+                  ... on Repository {
+                    name
+                    description
+                    url
+                    primaryLanguage { name color }
+                    stargazerCount
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          payload = json.dumps({'query': query}).encode()
+          req = urllib.request.Request(
+              'https://api.github.com/graphql',
+              data=payload,
+              headers={
+                  'Authorization': f'Bearer {token}',
+                  'Content-Type': 'application/json',
+                  'User-Agent': 'readme-updater'
+              }
+          )
+
+          response = json.loads(urllib.request.urlopen(req).read())
+          repos = response['data']['user']['pinnedItems']['nodes']
+
+          if not repos:
+              print("Nessun repo pinnato trovato.")
+              exit(0)
+
+          # Genera i badge per ogni repo
+          badges = []
+          for r in repos:
+              name = urllib.parse.quote(r['name'], safe='')
+              url  = r['url']
+              badge = (
+                  f"[![](https://img.shields.io/badge/{name}-%E2%86%97_open"
+                  f"-7B61FF?style=for-the-badge&logo=github&logoColor=white"
+                  f"&labelColor=1a1a2e)]({url})"
+              )
+              badges.append(badge)
+
+          # Due badge per riga
+          rows = []
+          for i in range(0, len(badges), 2):
+              rows.append('  '.join(badges[i:i+2]))
+          section = '\n\n'.join(rows)
+
+          # Aggiorna il README tra i marcatori
+          with open('README.md', 'r') as f:
+              content = f.read()
+
+          updated = re.sub(
+              r'<!-- PINNED_REPOS_START -->.*?<!-- PINNED_REPOS_END -->',
+              f'<!-- PINNED_REPOS_START -->\n{section}\n<!-- PINNED_REPOS_END -->',
+              content,
+              flags=re.DOTALL
+          )
+
+          with open('README.md', 'w') as f:
+              f.write(updated)
+
+          print("README aggiornato con:", [r['name'] for r in repos])
+          EOF
+
+      - name: Commit e push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: aggiorna repo pinnati"
+          git push
