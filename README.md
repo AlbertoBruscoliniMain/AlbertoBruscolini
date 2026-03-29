@@ -11,10 +11,10 @@
 
 # Hey, I'm Alberto 👋
 
-**5th year Computer Science student · Bologna, Italy 🇮🇹**
+**5th year Computer Science student · Rimini, Italy 🇮🇹**
 
-Passionate about Python, web development and artificial intelligence.
-I write code, make mistakes, and learn — usually in the wrong order.
+Passionate about Python, Fessa, web development and artificial intelligence.
+
 
 <br>
 
@@ -33,7 +33,11 @@ I write code, make mistakes, and learn — usually in the wrong order.
 
 ### 📊 most used languages
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlbertoBruscolini&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B61FF&text_color=ECECEC&langs_count=6" />
+![Python](https://img.shields.io/badge/Python-65%25-3572A5?style=flat-square&logo=python&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-15%25-e34c26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-10%25-563d7c?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-7%25-f1e05a?style=flat-square&logo=javascript&logoColor=black)
+![JSON](https://img.shields.io/badge/JSON-3%25-gray?style=flat-square&logo=json&logoColor=white)
 
 ---
 
