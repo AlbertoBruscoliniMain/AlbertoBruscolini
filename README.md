@@ -1,17 +1,12 @@
-<!-- ╔══════════════════════════════════════════════════════════╗ -->
-<!-- ║  OPTIONAL: replace the line below with a full-width     ║ -->
-<!-- ║  banner image (1200×300px works great)                  ║ -->
-<!-- ║  <img src="YOUR_BANNER.png" width="100%" />             ║ -->
-<!-- ╚══════════════════════════════════════════════════════════╝ -->
+<!-- OPTIONAL: replace with a full-width banner (1200×300px) -->
+<!-- <img src="YOUR_BANNER.png" width="100%" /> -->
 
 <div align="center">
 
-<!-- ── ANIMATED TYPING HEADER ── -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7B61FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Alberto+%F0%9F%91%8B;5th+year+C.Science+student+%C2%B7+Rimini+%F0%9F%87%AE%F0%9F%87%B9;Python+%7C+Web+Dev+%7C+AI+enthusiast" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7B61FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Alberto+%F0%9F%91%8B;5th+year+CS+student+%C2%B7+Rimini+%F0%9F%87%AE%F0%9F%87%B9;Python+%7C+Web+Dev+%7C+AI+enthusiast" alt="Typing SVG" />
 
 <br/>
 
-<!-- ── SOCIAL BADGES ── -->
 [![Portfolio](https://img.shields.io/badge/🌐%20portfolio-albertobruscolini.github.io-7B61FF?style=for-the-badge)](https://albertobruscolini.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-AlbertoBruscolini-181717?style=for-the-badge&logo=github)](https://github.com/AlbertoBruscolini)
 [![Instagram](https://img.shields.io/badge/Instagram-albii0__-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/albii0__)
@@ -21,32 +16,38 @@
 
 ---
 
-<!-- ── ABOUT + PROFILE IMAGE SIDE BY SIDE ── -->
 <table>
 <tr>
 <td width="55%" valign="top">
 
 ### 👤 about me
 
-- 🎓 &nbsp; 5th year **Computer Science** student
-- 📍 &nbsp; Bologna, Italy
-- 🐍 &nbsp; Python is my main language
-- 🤖 &nbsp; Currently building my **first AI**
-- 🌱 &nbsp; Always learning, always improving
-- ⚡ &nbsp; I write code, make mistakes, and learn — usually in the wrong order
+I'm a 17-year-old developer from **Rimini, Italy** 🇮🇹 in my final year of a Computer Science high school.
+
+I spend most of my time writing Python, breaking things, and figuring out how to fix them. I'm currently diving into **AI and machine learning** — slowly building my first model from scratch.
+
+When I'm not coding, you'll probably find me on Instagram or Discord.
+
+```
+📍  Rimini, Italy
+🎓  5th year · Computer Science
+🐍  Python main · web dev on the side
+🤖  Building my first AI
+```
 
 </td>
 <td width="45%" align="center" valign="top">
 
-<!-- ╔═════════════════════════════════════╗ -->
-<!-- ║  PUT YOUR PROFILE PICTURE HERE      ║ -->
-<!-- ║  Drag & drop an image on GitHub     ║ -->
-<!-- ║  then paste the generated link      ║ -->
-<!-- ║                                     ║ -->
-<!-- ║  <img src="YOUR_PHOTO.png"          ║ -->
-<!-- ║       width="220"                   ║ -->
-<!-- ║       style="border-radius:50%"/>   ║ -->
-<!-- ╚═════════════════════════════════════╝ -->
+<br/><br/>
+
+[![Visit my portfolio](https://img.shields.io/badge/🌐_visit_my_portfolio-albertobruscolini.github.io-7B61FF?style=for-the-badge)](https://albertobruscolini.github.io)
+
+<br/>
+
+> Projects, skills and<br/>everything about me →
+
+<!-- OPTIONAL: add your photo here -->
+<!-- <img src="YOUR_PHOTO.png" width="200" /> -->
 
 </td>
 </tr>
@@ -58,7 +59,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,html,css,js,git,github,vscode,linux&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,html,css,js,git,github,vscode,windows,apple&theme=dark" />
 
 </div>
 
@@ -78,33 +79,22 @@
 
 ---
 
-### 🚀 currently learning
+### 📁 featured projects
 
 <div align="center">
 
-![Machine Learning](https://img.shields.io/badge/🤖_Machine_Learning-learning-7B61FF?style=for-the-badge)
-![Neural Networks](https://img.shields.io/badge/🧠_Neural_Networks-learning-7B61FF?style=for-the-badge)
-![Flask](https://img.shields.io/badge/Flask-learning-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Web Dev](https://img.shields.io/badge/Web_Development-learning-e34c26?style=for-the-badge&logo=html5&logoColor=white)
-![AI](https://img.shields.io/badge/Building_my_first_AI_🤖-in_progress-39FF14?style=for-the-badge)
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  Replace REPO_NAME_1 and REPO_NAME_2 with your actual       ║ -->
+<!-- ║  repository names. You can add as many rows as you want.    ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+
+[![Repo 1](https://github-readme-stats.vercel.app/api/pin/?username=AlbertoBruscolini&repo=REPO_NAME_1&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B61FF&text_color=ECECEC&icon_color=7B61FF)](https://github.com/AlbertoBruscolini/REPO_NAME_1)
+[![Repo 2](https://github-readme-stats.vercel.app/api/pin/?username=AlbertoBruscolini&repo=REPO_NAME_2&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B61FF&text_color=ECECEC&icon_color=7B61FF)](https://github.com/AlbertoBruscolini/REPO_NAME_2)
+
+[![Repo 3](https://github-readme-stats.vercel.app/api/pin/?username=AlbertoBruscolini&repo=REPO_NAME_3&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B61FF&text_color=ECECEC&icon_color=7B61FF)](https://github.com/AlbertoBruscolini/REPO_NAME_3)
+[![Repo 4](https://github-readme-stats.vercel.app/api/pin/?username=AlbertoBruscolini&repo=REPO_NAME_4&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=7B61FF&text_color=ECECEC&icon_color=7B61FF)](https://github.com/AlbertoBruscolini/REPO_NAME_4)
 
 </div>
-
----
-
-<!-- ── PROJECTS SECTION ── -->
-### 📁 featured projects
-
-<!-- ╔═════════════════════════════════════════════════════════╗ -->
-<!-- ║  OPTIONAL: add screenshots of your projects here       ║ -->
-<!-- ║  Works great as a 2-column table, like this:           ║ -->
-<!-- ║                                                         ║ -->
-<!-- ║  | Project 1 | Project 2 |                             ║ -->
-<!-- ║  |-----------|-----------|                             ║ -->
-<!-- ║  | <img>     | <img>     |                             ║ -->
-<!-- ╚═════════════════════════════════════════════════════════╝ -->
-
-> 🔗 Check out all my projects on my **[portfolio](https://albertobruscolini.github.io)** or browse my **[repositories](https://github.com/AlbertoBruscolini?tab=repositories)**
 
 ---
 
